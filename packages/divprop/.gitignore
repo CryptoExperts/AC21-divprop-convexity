@@ -1,0 +1,15 @@
+build
+dist
+__pycache__
+*.egg-info
+poetry.lock
+*.so
+*_wrap.*
+.envsage
+actisage
+results/
+logs/
+data/
+divcore_random/
+src/divprop/lib.py
+.cache

@@ -1,0 +1,512 @@
+00:00:01.333.010 INFO root: Constraints: 110100111
+32
+00:23:03.086.762 INFO root: final SAT_times: 12.9 - 83.2, avg 36.3 med 36.0
+
+00:00:02.559.688 INFO root: Constraints: 110111010
+17
+00:29:42.520.649 INFO root: SAT_times: 19.2 - 122.0, avg 60.0 med 56.1
+
+00:00:01.465.384 INFO root: Constraints: 001101010
+35
+00:28:12.828.747 INFO root: final SAT_times: 11.5 - 121.0, avg 40.8 med 35.3
+
+00:00:01.374.940 INFO root: Constraints: 100111111
+15
+00:29:15.638.205 INFO root: SAT_times: 14.6 - 176.4, avg 74.1 med 58.6
+
+00:00:01.420.352 INFO root: Constraints: 111100111
+30
+00:20:40.980.911 INFO root: final SAT_times: 10.2 - 62.6, avg 34.2 med 34.2
+
+00:00:01.354.473 INFO root: Constraints: 000111011
+15
+00:29:28.914.033 INFO root: SAT_times: 21.9 - 256.5, avg 88.3 med 63.9
+
+00:00:01.464.257 INFO root: Constraints: 001100010
+33
+00:26:38.607.400 INFO root: final SAT_times: 16.8 - 90.5, avg 42.0 med 40.6
+
+00:00:01.479.844 INFO root: Constraints: 001111110
+32
+00:51:28.331.696 INFO root: final SAT_times: 18.9 - 215.0, avg 73.0 med 64.5
+
+00:00:01.511.368 INFO root: Constraints: 110111110
+34
+00:59:19.048.905 INFO root: final SAT_times: 13.5 - 185.4, avg 70.5 med 57.1
+
+00:00:01.358.530 INFO root: Constraints: 010110111
+15
+00:27:47.178.349 INFO root: SAT_times: 21.4 - 111.6, avg 65.7 med 63.8
+
+00:00:01.462.103 INFO root: Constraints: 010101011
+30
+00:22:09.799.440 INFO root: final SAT_times: 9.4 - 80.3, avg 35.1 med 36.9
+
+00:00:01.455.144 INFO root: Constraints: 011110010
+17
+00:27:40.246.935 INFO root: SAT_times: 20.9 - 121.7, avg 58.1 med 46.3
+
+00:00:01.457.467 INFO root: Constraints: 110110010
+17
+00:28:56.942.952 INFO root: SAT_times: 30.4 - 116.4, avg 71.3 med 64.2
+
+00:00:01.459.791 INFO root: Constraints: 100100110
+33
+00:25:31.502.835 INFO root: final SAT_times: 6.5 - 148.1, avg 40.3 med 33.2
+
+00:00:01.375.574 INFO root: Constraints: 110101111
+31
+00:24:49.090.289 INFO root: final SAT_times: 11.0 - 91.6, avg 40.5 med 37.4
+
+00:00:01.442.436 INFO root: Constraints: 010110010
+17
+00:28:55.341.335 INFO root: SAT_times: 32.1 - 135.2, avg 73.1 med 62.6
+
+00:00:01.339.323 INFO root: Constraints: 001101111
+25
+00:18:44.513.497 INFO root: final SAT_times: 7.5 - 94.0, avg 38.6 med 37.6
+
+00:00:01.449.265 INFO root: Constraints: 000101110
+30
+00:20:25.639.454 INFO root: final SAT_times: 14.0 - 89.1, avg 33.8 med 34.8
+
+00:00:01.650.447 INFO root: Constraints: 010111011
+18
+00:29:18.306.103 INFO root: SAT_times: 16.0 - 117.1, avg 55.5 med 56.9
+
+00:00:01.334.568 INFO root: Constraints: 100100011
+26
+00:24:23.258.492 INFO root: final SAT_times: 10.4 - 114.5, avg 41.5 med 38.6
+
+00:00:01.684.192 INFO root: Constraints: 101100111
+30
+00:25:48.510.018 INFO root: final SAT_times: 14.5 - 156.0, avg 45.5 med 34.8
+
+00:00:01.361.383 INFO root: Constraints: 111111111
+17
+00:29:37.063.085 INFO root: SAT_times: 29.3 - 125.6, avg 61.4 med 49.1
+
+00:00:01.648.806 INFO root: Constraints: 101110010
+17
+00:29:12.650.808 INFO root: SAT_times: 34.4 - 173.9, avg 72.8 med 59.5
+
+00:00:01.443.897 INFO root: Constraints: 011111011
+13
+00:28:43.487.942 INFO root: SAT_times: 34.2 - 153.0, avg 86.8 med 71.8
+
+00:00:01.600.197 INFO root: Constraints: 001101110
+28
+00:22:39.151.748 INFO root: final SAT_times: 8.7 - 118.3, avg 42.6 med 37.8
+
+00:00:01.462.432 INFO root: Constraints: 111100110
+32
+00:25:41.512.481 INFO root: final SAT_times: 14.5 - 100.9, avg 41.6 med 36.9
+
+00:00:01.539.000 INFO root: Constraints: 001100110
+31
+00:24:24.752.214 INFO root: final SAT_times: 12.4 - 122.7, avg 40.3 med 35.9
+
+00:00:01.471.744 INFO root: Constraints: 000101010
+33
+00:26:15.559.832 INFO root: final SAT_times: 17.3 - 160.1, avg 41.8 med 37.3
+
+00:00:01.379.883 INFO root: Constraints: 110101011
+28
+00:24:36.454.958 INFO root: final SAT_times: 9.1 - 96.9, avg 40.5 med 37.5
+
+00:00:01.539.642 INFO root: Constraints: 000110110
+13
+00:28:49.967.069 INFO root: SAT_times: 15.7 - 198.2, avg 89.9 med 71.8
+
+00:00:01.334.241 INFO root: Constraints: 011101111
+27
+00:19:55.168.076 INFO root: final SAT_times: 10.2 - 59.2, avg 37.7 med 37.7
+
+00:00:01.359.381 INFO root: Constraints: 001111111
+16
+00:29:54.508.530 INFO root: SAT_times: 33.3 - 138.6, avg 76.5 med 71.4
+
+00:00:01.461.659 INFO root: Constraints: 110101110
+31
+00:24:51.192.389 INFO root: final SAT_times: 22.1 - 96.2, avg 40.6 med 36.3
+
+00:00:01.416.564 INFO root: Constraints: 100111110
+17
+00:29:50.633.782 INFO root: SAT_times: 26.8 - 159.3, avg 73.0 med 64.5
+
+00:00:01.368.981 INFO root: Constraints: 000110111
+15
+00:28:35.249.862 INFO root: SAT_times: 18.0 - 155.2, avg 74.8 med 77.8
+
+00:00:01.426.319 INFO root: Constraints: 101110110
+11
+00:29:15.698.590 INFO root: SAT_times: 27.7 - 173.6, avg 115.5 med 139.7
+
+00:00:01.365.655 INFO root: Constraints: 101101011
+34
+00:25:31.982.272 INFO root: final SAT_times: 12.8 - 91.5, avg 36.9 med 34.3
+
+00:00:01.504.279 INFO root: Constraints: 111111010
+15
+00:27:58.091.866 INFO root: SAT_times: 19.0 - 163.8, avg 64.8 med 58.6
+
+00:00:01.404.275 INFO root: Constraints: 011100110
+27
+00:22:50.325.196 INFO root: final SAT_times: 11.3 - 93.5, avg 44.3 med 38.6
+
+00:00:01.485.016 INFO root: Constraints: 000111010
+16
+00:28:55.404.935 INFO root: SAT_times: 23.9 - 155.9, avg 78.7 med 85.2
+
+00:00:01.363.552 INFO root: Constraints: 100110111
+18
+00:29:15.405.593 INFO root: SAT_times: 15.0 - 135.7, avg 57.3 med 45.3
+
+00:00:01.376.857 INFO root: Constraints: 110110111
+16
+00:29:45.767.248 INFO root: SAT_times: 18.2 - 123.3, avg 67.0 med 65.8
+
+00:00:01.686.759 INFO root: Constraints: 101110011
+15
+00:29:33.462.535 INFO root: SAT_times: 21.9 - 248.3, avg 77.1 med 63.1
+
+00:00:01.478.217 INFO root: Constraints: 011100011
+30
+00:21:47.460.199 INFO root: final SAT_times: 8.5 - 117.4, avg 34.6 med 34.4
+
+00:00:01.493.116 INFO root: Constraints: 011101110
+30
+00:22:17.451.073 INFO root: final SAT_times: 13.6 - 72.8, avg 38.2 med 36.7
+
+00:00:01.470.968 INFO root: Constraints: 100100010
+33
+00:22:46.997.495 INFO root: final SAT_times: 5.9 - 81.8, avg 28.5 med 28.5
+
+00:00:01.341.249 INFO root: Constraints: 010100111
+23
+00:21:18.031.939 INFO root: final SAT_times: 23.5 - 109.6, avg 46.6 med 39.6
+
+00:00:01.349.788 INFO root: Constraints: 001101011
+34
+00:26:48.607.047 INFO root: final SAT_times: 9.9 - 138.2, avg 39.5 med 34.5
+
+00:00:01.348.355 INFO root: Constraints: 100100111
+35
+00:26:37.063.071 INFO root: final SAT_times: 13.4 - 109.3, avg 39.5 med 35.5
+
+00:00:01.401.113 INFO root: Constraints: 110100011
+32
+00:26:31.622.334 INFO root: final SAT_times: 8.9 - 110.0, avg 41.2 med 39.0
+
+00:00:01.360.464 INFO root: Constraints: 011101011
+27
+00:21:57.238.342 INFO root: final SAT_times: 8.7 - 84.9, avg 36.1 med 34.3
+
+00:00:01.324.308 INFO root: Constraints: 000101011
+29
+00:22:53.857.842 INFO root: final SAT_times: 12.7 - 101.7, avg 41.1 med 34.5
+
+00:00:01.391.791 INFO root: Constraints: 001110011
+16
+00:29:09.850.250 INFO root: SAT_times: 24.2 - 156.9, avg 68.2 med 66.7
+
+00:00:01.356.378 INFO root: Constraints: 101111111
+14
+00:28:03.275.296 INFO root: SAT_times: 17.7 - 228.6, avg 82.3 med 64.6
+
+00:00:01.467.832 INFO root: Constraints: 101111110
+34
+01:03:26.184.550 INFO root: final SAT_times: 19.3 - 276.5, avg 88.7 med 73.0
+
+00:00:01.360.756 INFO root: Constraints: 111111011
+17
+00:29:31.670.066 INFO root: SAT_times: 17.9 - 176.3, avg 62.3 med 59.4
+
+00:00:01.390.102 INFO root: Constraints: 110111011
+15
+00:29:45.731.443 INFO root: SAT_times: 31.5 - 251.7, avg 74.2 med 60.6
+
+00:00:01.363.750 INFO root: Constraints: 111110011
+19
+00:29:42.031.419 INFO root: SAT_times: 20.0 - 108.6, avg 66.2 med 58.5
+
+00:00:01.959.930 INFO root: Constraints: 101100110
+35
+00:29:44.030.001 INFO root: SAT_times: 9.3 - 123.8, avg 41.8 med 36.5
+
+00:00:01.469.588 INFO root: Constraints: 010100010
+27
+00:19:05.573.692 INFO root: final SAT_times: 9.8 - 54.5, avg 33.5 med 35.8
+
+00:00:01.361.383 INFO root: Constraints: 011111111
+11
+00:29:10.062.084 INFO root: SAT_times: 39.9 - 184.0, avg 106.8 med 113.8
+
+00:00:01.433.955 INFO root: Constraints: 000100011
+24
+00:29:28.340.862 INFO root: SAT_times: 18.5 - 110.6, avg 51.8 med 45.2
+
+00:00:01.768.803 INFO root: Constraints: 011101010
+24
+00:17:29.653.687 INFO root: final SAT_times: 12.0 - 48.7, avg 30.7 med 34.6
+
+00:00:01.455.666 INFO root: Constraints: 100110110
+17
+00:29:58.385.597 INFO root: SAT_times: 14.6 - 137.4, avg 74.1 med 70.2
+
+00:00:01.439.883 INFO root: Constraints: 010110110
+12
+00:29:39.445.889 INFO root: SAT_times: 38.6 - 149.4, avg 97.0 med 112.7
+
+00:00:01.434.736 INFO root: Constraints: 011100010
+32
+00:22:10.784.086 INFO root: final SAT_times: 9.3 - 53.8, avg 33.0 med 32.4
+
+00:00:01.525.062 INFO root: Constraints: 101101110
+32
+00:27:13.305.842 INFO root: final SAT_times: 6.9 - 126.2, avg 45.0 med 35.7
+
+00:00:01.351.158 INFO root: Constraints: 101110111
+13
+00:29:48.291.098 INFO root: SAT_times: 30.2 - 246.1, avg 98.8 med 75.6
+
+00:00:01.536.055 INFO root: Constraints: 111101010
+29
+00:25:14.073.592 INFO root: final SAT_times: 14.7 - 83.1, avg 39.6 med 35.8
+
+00:00:01.660.221 INFO root: Constraints: 101111010
+17
+00:29:16.752.313 INFO root: SAT_times: 18.8 - 142.8, avg 70.4 med 58.3
+
+00:00:01.323.423 INFO root: Constraints: 111110111
+16
+00:29:32.119.218 INFO root: SAT_times: 28.6 - 126.5, avg 65.3 med 64.1
+
+00:00:01.544.812 INFO root: Constraints: 101101010
+31
+00:26:32.194.461 INFO root: final SAT_times: 12.5 - 118.1, avg 43.9 med 38.3
+
+00:00:01.353.002 INFO root: Constraints: 101111011
+18
+00:29:13.140.789 INFO root: SAT_times: 26.3 - 116.9, avg 66.7 med 60.8
+
+00:00:01.356.793 INFO root: Constraints: 010110011
+19
+00:29:33.034.472 INFO root: SAT_times: 32.3 - 138.3, avg 66.6 med 60.2
+
+00:00:01.357.409 INFO root: Constraints: 000100111
+32
+00:24:08.536.588 INFO root: final SAT_times: 8.4 - 159.3, avg 38.7 med 35.8
+
+00:00:01.560.040 INFO root: Constraints: 100110010
+13
+00:28:21.273.753 INFO root: SAT_times: 32.8 - 184.1, avg 84.0 med 65.6
+
+00:00:01.475.373 INFO root: Constraints: 111101110
+31
+00:23:30.227.126 INFO root: final SAT_times: 11.7 - 58.9, avg 38.9 med 35.2
+
+00:00:01.348.251 INFO root: Constraints: 111101111
+30
+00:24:25.844.747 INFO root: final SAT_times: 15.1 - 121.1, avg 42.5 med 36.0
+
+00:00:01.357.582 INFO root: Constraints: 100101111
+27
+00:18:56.995.220 INFO root: final SAT_times: 6.8 - 99.4, avg 35.5 med 31.4
+
+00:00:01.553.428 INFO root: Constraints: 100111010
+19
+00:29:50.413.289 INFO root: SAT_times: 17.5 - 144.1, avg 67.1 med 63.3
+
+00:00:01.857.541 INFO root: Constraints: 110110011
+19
+00:29:21.855.538 INFO root: SAT_times: 29.9 - 137.1, avg 64.7 med 61.3
+
+00:00:01.543.241 INFO root: Constraints: 010101111
+29
+00:22:19.635.333 INFO root: final SAT_times: 8.1 - 56.9, avg 36.5 med 39.0
+
+00:00:01.432.023 INFO root: Constraints: 101100010
+31
+00:24:10.381.973 INFO root: final SAT_times: 8.5 - 86.0, avg 39.9 med 38.5
+
+00:00:01.811.474 INFO root: Constraints: 000111111
+16
+00:29:25.356.019 INFO root: SAT_times: 24.5 - 275.4, avg 74.3 med 54.8
+
+00:00:01.548.273 INFO root: Constraints: 000110011
+9
+00:27:57.263.988 INFO root: SAT_times: 35.0 - 243.1, avg 124.5 med 120.5
+
+00:00:01.512.843 INFO root: Constraints: 111100010
+30
+00:21:49.888.219 INFO root: final SAT_times: 9.5 - 88.0, avg 36.2 med 34.5
+
+00:00:01.452.898 INFO root: Constraints: 100101010
+33
+00:25:28.324.769 INFO root: final SAT_times: 10.6 - 106.0, avg 40.7 med 34.2
+
+00:00:01.378.874 INFO root: Constraints: 010111111
+11
+00:28:22.910.406 INFO root: SAT_times: 20.1 - 251.6, avg 103.6 med 106.1
+
+00:00:01.600.632 INFO root: Constraints: 101100011
+29
+00:20:41.812.844 INFO root: final SAT_times: 18.4 - 56.3, avg 35.4 med 34.5
+
+00:00:01.782.899 INFO root: Constraints: 010100110
+29
+00:26:52.261.378 INFO root: final SAT_times: 8.2 - 90.7, avg 46.3 med 43.5
+
+00:00:01.740.411 INFO root: Constraints: 010111010
+15
+00:29:03.328.998 INFO root: SAT_times: 26.4 - 126.4, avg 69.4 med 58.7
+
+00:00:01.863.355 INFO root: Constraints: 110111111
+17
+00:28:45.445.936 INFO root: SAT_times: 27.6 - 114.5, avg 58.1 med 46.6
+
+00:00:01.435.387 INFO root: Constraints: 010101110
+30
+00:23:27.469.421 INFO root: final SAT_times: 14.3 - 57.0, avg 37.3 med 39.9
+
+00:00:01.354.369 INFO root: Constraints: 000101111
+31
+00:25:17.077.092 INFO root: final SAT_times: 8.3 - 141.5, avg 42.7 med 33.8
+
+00:00:01.358.204 INFO root: Constraints: 011110111
+15
+00:28:36.445.292 INFO root: SAT_times: 33.4 - 114.6, avg 69.9 med 64.3
+
+00:00:01.351.698 INFO root: Constraints: 001110111
+16
+00:28:12.685.033 INFO root: SAT_times: 21.7 - 149.8, avg 70.6 med 61.6
+
+00:00:01.425.155 INFO root: Constraints: 001110110
+17
+00:29:39.879.610 INFO root: SAT_times: 18.7 - 134.9, avg 68.3 med 61.5
+
+00:00:01.474.999 INFO root: Constraints: 000110010
+14
+00:27:49.209.734 INFO root: SAT_times: 30.8 - 180.0, avg 70.4 med 62.9
+
+00:00:01.356.143 INFO root: Constraints: 001111011
+16
+00:29:53.858.646 INFO root: SAT_times: 33.4 - 163.8, avg 79.5 med 60.0
+
+00:00:01.427.557 INFO root: Constraints: 011111110
+14
+00:29:12.452.582 INFO root: SAT_times: 35.0 - 168.8, avg 79.9 med 66.5
+
+00:00:01.475.715 INFO root: Constraints: 111110110
+13
+00:27:43.336.576 INFO root: SAT_times: 18.1 - 138.1, avg 81.9 med 82.6
+
+00:00:01.419.208 INFO root: Constraints: 100101110
+29
+00:20:01.678.466 INFO root: final SAT_times: 8.0 - 85.8, avg 35.0 med 34.3
+
+00:00:01.511.453 INFO root: Constraints: 001100111
+25
+00:18:40.313.255 INFO root: final SAT_times: 14.7 - 96.1, avg 38.4 med 37.5
+
+00:00:01.903.476 INFO root: Constraints: 100110011
+15
+00:29:34.978.552 INFO root: SAT_times: 22.6 - 260.6, avg 74.5 med 59.1
+
+00:00:01.440.101 INFO root: Constraints: 111110010
+16
+00:29:01.603.264 INFO root: SAT_times: 31.3 - 256.2, avg 78.4 med 64.6
+
+00:00:01.371.631 INFO root: Constraints: 010100011
+30
+00:21:42.019.279 INFO root: final SAT_times: 15.4 - 53.0, avg 34.1 med 35.0
+
+00:00:01.365.450 INFO root: Constraints: 111101011
+31
+00:23:25.999.083 INFO root: final SAT_times: 13.5 - 84.3, avg 32.3 med 31.4
+
+00:00:01.439.103 INFO root: Constraints: 010101010
+31
+00:26:21.699.363 INFO root: final SAT_times: 9.6 - 94.3, avg 42.4 med 37.3
+
+00:00:01.444.017 INFO root: Constraints: 000100010
+29
+00:23:47.722.296 INFO root: final SAT_times: 16.9 - 86.1, avg 36.9 med 32.4
+
+00:00:01.463.550 INFO root: Constraints: 011110110
+12
+00:28:03.091.178 INFO root: SAT_times: 42.6 - 136.7, avg 88.9 med 89.1
+
+00:00:01.443.650 INFO root: Constraints: 110101010
+32
+00:26:03.086.293 INFO root: final SAT_times: 12.1 - 100.8, avg 35.9 med 35.0
+
+00:00:01.590.352 INFO root: Constraints: 001111010
+15
+00:29:58.750.513 INFO root: SAT_times: 28.9 - 169.8, avg 85.2 med 70.6
+
+00:00:01.477.441 INFO root: Constraints: 110100010
+31
+00:22:06.291.255 INFO root: final SAT_times: 11.1 - 52.6, avg 34.4 med 36.3
+
+00:00:01.498.785 INFO root: Constraints: 011111010
+14
+00:28:04.261.547 INFO root: SAT_times: 38.4 - 148.9, avg 74.1 med 61.2
+
+00:00:01.545.171 INFO root: Constraints: 110110110
+14
+00:28:37.474.100 INFO root: SAT_times: 26.1 - 136.4, avg 74.4 med 62.0
+
+00:00:02.025.428 INFO root: Constraints: 110100110
+29
+00:25:53.099.502 INFO root: final SAT_times: 12.7 - 100.3, avg 46.9 med 41.3
+
+00:00:01.375.339 INFO root: Constraints: 100111011
+22
+00:27:45.836.800 INFO root: SAT_times: 22.8 - 122.0, avg 51.1 med 40.7
+
+00:00:01.363.450 INFO root: Constraints: 011110011
+22
+00:29:43.292.379 INFO root: SAT_times: 16.9 - 103.2, avg 47.3 med 39.7
+
+00:00:01.451.971 INFO root: Constraints: 011100111
+28
+00:23:05.704.224 INFO root: final SAT_times: 10.7 - 107.9, avg 42.9 med 40.2
+
+00:00:01.349.385 INFO root: Constraints: 001100011
+29
+00:24:45.211.247 INFO root: final SAT_times: 12.0 - 114.5, avg 44.2 med 40.4
+
+00:00:01.449.494 INFO root: Constraints: 000100110
+30
+00:25:58.718.763 INFO root: final SAT_times: 15.1 - 106.7, avg 45.7 med 42.1
+
+00:00:01.485.343 INFO root: Constraints: 000111110
+11
+00:28:31.791.649 INFO root: SAT_times: 50.6 - 169.2, avg 109.5 med 113.2
+
+00:00:01.367.370 INFO root: Constraints: 111100011
+30
+00:20:03.194.197 INFO root: final SAT_times: 11.6 - 79.6, avg 32.1 med 31.7
+
+00:00:01.398.731 INFO root: Constraints: 111111110
+17
+00:28:52.524.856 INFO root: SAT_times: 24.1 - 119.8, avg 57.2 med 43.9
+
+00:00:01.343.529 INFO root: Constraints: 100101011
+34
+00:25:02.852.038 INFO root: final SAT_times: 15.1 - 83.4, avg 38.4 med 33.9
+
+00:00:01.449.641 INFO root: Constraints: 001110010
+17
+00:28:49.290.483 INFO root: SAT_times: 17.6 - 157.5, avg 62.0 med 56.9
+
+00:00:00.894.802 INFO root: Constraints: 010111110
+32
+00:58:37.877.785 INFO root: final SAT_times: 25.7 - 222.7, avg 73.8 med 66.1
+
+00:00:01.347.310 INFO root: Constraints: 101101111
+28
+00:20:48.211.174 INFO root: final SAT_times: 10.1 - 96.0, avg 38.1 med 35.7
+

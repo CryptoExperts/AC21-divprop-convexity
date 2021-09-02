@@ -1,0 +1,87 @@
+00:00:00.115.856 INFO root: starting at 2021-09-24.06:42:55
+00:00:00.116.857 INFO __main__:RandomSboxBenchmark: Namespace(large=True, n=32, output='divcore_random', seed='2021')
+00:00:00.116.857 INFO __main__:RandomSboxBenchmark: generating 32-bit S-box...
+00:11:30.799.540 INFO __main__:RandomSboxBenchmark: <Sbox hash=910485a0a0a26f62 n=32 m=32>
+00:11:30.799.540 INFO __main__:RandomSboxBenchmark: saving to divcore_random/32/fw.sbox ...
+00:11:46.121.862 INFO __main__:RandomSboxBenchmark: hashing...
+00:13:03.560.301 INFO __main__:RandomSboxBenchmark: sha256sum: b'22bbc7bc5bb320c1589af35d711c4a52118dbb1d0a0786cd99f09edd466c4911'
+00:13:03.561.302 INFO __main__:RandomSboxBenchmark: splitting into coordinates...
+00:14:17.356.097 INFO __main__:RandomSboxBenchmark: coord 0/32 saved
+00:15:32.728.469 INFO __main__:RandomSboxBenchmark: coord 1/32 saved
+00:16:46.966.707 INFO __main__:RandomSboxBenchmark: coord 2/32 saved
+00:18:01.503.244 INFO __main__:RandomSboxBenchmark: coord 3/32 saved
+00:19:16.009.750 INFO __main__:RandomSboxBenchmark: coord 4/32 saved
+00:20:30.446.187 INFO __main__:RandomSboxBenchmark: coord 5/32 saved
+00:21:45.214.955 INFO __main__:RandomSboxBenchmark: coord 6/32 saved
+00:23:00.135.876 INFO __main__:RandomSboxBenchmark: coord 7/32 saved
+00:24:14.581.322 INFO __main__:RandomSboxBenchmark: coord 8/32 saved
+00:25:29.623.364 INFO __main__:RandomSboxBenchmark: coord 9/32 saved
+00:26:44.325.066 INFO __main__:RandomSboxBenchmark: coord 10/32 saved
+00:27:59.252.993 INFO __main__:RandomSboxBenchmark: coord 11/32 saved
+00:29:14.704.444 INFO __main__:RandomSboxBenchmark: coord 12/32 saved
+00:30:30.645.386 INFO __main__:RandomSboxBenchmark: coord 13/32 saved
+00:31:45.828.569 INFO __main__:RandomSboxBenchmark: coord 14/32 saved
+00:33:01.006.747 INFO __main__:RandomSboxBenchmark: coord 15/32 saved
+00:34:17.594.335 INFO __main__:RandomSboxBenchmark: coord 16/32 saved
+00:35:33.314.055 INFO __main__:RandomSboxBenchmark: coord 17/32 saved
+00:36:49.263.004 INFO __main__:RandomSboxBenchmark: coord 18/32 saved
+00:38:06.160.901 INFO __main__:RandomSboxBenchmark: coord 19/32 saved
+00:39:21.319.060 INFO __main__:RandomSboxBenchmark: coord 20/32 saved
+00:40:36.915.656 INFO __main__:RandomSboxBenchmark: coord 21/32 saved
+00:41:52.475.216 INFO __main__:RandomSboxBenchmark: coord 22/32 saved
+00:43:07.787.528 INFO __main__:RandomSboxBenchmark: coord 23/32 saved
+00:44:23.259.000 INFO __main__:RandomSboxBenchmark: coord 24/32 saved
+00:45:38.993.734 INFO __main__:RandomSboxBenchmark: coord 25/32 saved
+00:46:54.515.256 INFO __main__:RandomSboxBenchmark: coord 26/32 saved
+00:48:10.322.063 INFO __main__:RandomSboxBenchmark: coord 27/32 saved
+00:49:26.413.154 INFO __main__:RandomSboxBenchmark: coord 28/32 saved
+00:50:42.126.867 INFO __main__:RandomSboxBenchmark: coord 29/32 saved
+00:51:57.751.492 INFO __main__:RandomSboxBenchmark: coord 30/32 saved
+00:53:13.578.319 INFO __main__:RandomSboxBenchmark: coord 31/32 saved
+00:53:13.579.320 INFO __main__:RandomSboxBenchmark: inverting...
+00:57:45.377.118 INFO __main__:RandomSboxBenchmark: saving to divcore_random/32/bk.sbox ...
+00:58:00.227.968 INFO __main__:RandomSboxBenchmark: hashing...
+00:59:21.551.292 INFO __main__:RandomSboxBenchmark: sha256sum: b'6e856c9bcf246b6c61d95e30d7c307ef12fc1dfbce6f19414dde24d8dee130d6'
+00:59:21.551.292 INFO __main__:RandomSboxBenchmark: splitting into coordinates...
+01:00:41.396.137 INFO __main__:RandomSboxBenchmark: coord 0/32 saved
+01:02:02.472.213 INFO __main__:RandomSboxBenchmark: coord 1/32 saved
+01:03:22.571.311 INFO __main__:RandomSboxBenchmark: coord 2/32 saved
+01:04:40.242.983 INFO __main__:RandomSboxBenchmark: coord 3/32 saved
+01:06:02.939.680 INFO __main__:RandomSboxBenchmark: coord 4/32 saved
+01:07:26.793.534 INFO __main__:RandomSboxBenchmark: coord 5/32 saved
+01:08:48.964.705 INFO __main__:RandomSboxBenchmark: coord 6/32 saved
+01:10:11.856.597 INFO __main__:RandomSboxBenchmark: coord 7/32 saved
+01:11:31.568.309 INFO __main__:RandomSboxBenchmark: coord 8/32 saved
+01:12:53.407.148 INFO __main__:RandomSboxBenchmark: coord 9/32 saved
+01:14:10.713.454 INFO __main__:RandomSboxBenchmark: coord 10/32 saved
+01:15:28.172.913 INFO __main__:RandomSboxBenchmark: coord 11/32 saved
+01:16:44.152.893 INFO __main__:RandomSboxBenchmark: coord 12/32 saved
+01:18:00.062.803 INFO __main__:RandomSboxBenchmark: coord 13/32 saved
+01:19:17.121.862 INFO __main__:RandomSboxBenchmark: coord 14/32 saved
+01:20:34.318.059 INFO __main__:RandomSboxBenchmark: coord 15/32 saved
+01:21:51.195.936 INFO __main__:RandomSboxBenchmark: coord 16/32 saved
+01:23:07.923.664 INFO __main__:RandomSboxBenchmark: coord 17/32 saved
+01:24:24.666.407 INFO __main__:RandomSboxBenchmark: coord 18/32 saved
+01:25:45.333.074 INFO __main__:RandomSboxBenchmark: coord 19/32 saved
+01:27:06.189.930 INFO __main__:RandomSboxBenchmark: coord 20/32 saved
+01:28:26.120.861 INFO __main__:RandomSboxBenchmark: coord 21/32 saved
+01:29:49.460.201 INFO __main__:RandomSboxBenchmark: coord 22/32 saved
+01:31:10.304.045 INFO __main__:RandomSboxBenchmark: coord 23/32 saved
+01:32:28.099.840 INFO __main__:RandomSboxBenchmark: coord 24/32 saved
+01:33:43.504.245 INFO __main__:RandomSboxBenchmark: coord 25/32 saved
+01:34:59.016.757 INFO __main__:RandomSboxBenchmark: coord 26/32 saved
+01:36:14.344.085 INFO __main__:RandomSboxBenchmark: coord 27/32 saved
+01:37:29.919.660 INFO __main__:RandomSboxBenchmark: coord 28/32 saved
+01:38:46.392.133 INFO __main__:RandomSboxBenchmark: coord 29/32 saved
+01:40:03.060.801 INFO __main__:RandomSboxBenchmark: coord 30/32 saved
+01:41:20.579.320 INFO __main__:RandomSboxBenchmark: coord 31/32 saved
+01:41:21.546.287 INFO __main__:RandomSboxBenchmark: heavy peeks
+01:41:21.547.288 INFO __main__:HeavyPeeks: loading forward coordinates to memory
+01:41:48.583.324 INFO __main__:HeavyPeeks: loading backward coordinates to memory
+01:42:14.888.629 INFO __main__:HeavyPeeks: loaded to memory done
+02:29:04.033.774 INFO __main__:RandomSboxBenchmark: reducing redundant: 7152 x m -> 194834
+02:29:22.170.911 INFO __main__:RandomSboxBenchmark: reduced: 40093
+02:29:22.189.930 INFO __main__:RandomSboxBenchmark: divcore: 7152 elements, saving to divcore_random/32/divcore.txt.gz ...
+02:29:22.189.930 INFO __main__:RandomSboxBenchmark: lb: 2958 elements, saving to divcore_random/32/lb.txt.gz ...
+02:29:22.190.931 INFO __main__:RandomSboxBenchmark: ub: 40093 elements, saving to divcore_random/32/ub.txt.gz ...
+02:29:22.351.092 INFO __main__:RandomSboxBenchmark: finished

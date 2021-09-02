@@ -1,0 +1,6 @@
+.cache
+scripts/.cache
+data/sbox_*
+.venv*
+divcore_random/*/cache
+divcore_random/*/*.set
