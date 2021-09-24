@@ -4,7 +4,7 @@ Supporting code for the ASIACRYPT 2021 paper by Aleksei Udovenko
 
 > [Convexity of division property transitions and CNF/MILP modeling of large S-boxes](https://doi).
 
-([Full version](https://ia.cr/2021/xxx)) can be found on eprint.
+([Full version](https://ia.cr/2021/1285)) can be found on eprint.
 
 
 ## Setup
