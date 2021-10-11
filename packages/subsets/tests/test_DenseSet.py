@@ -152,6 +152,8 @@ def test_properties():
 
         assert a.Mobius().LowerSet() == a.ParitySet().UpperSet().Not()
 
+        assert a.Mobius() == a.Not().ParitySet().Not() <= a.ParitySet().Not().LowerSet()
+
         # "random" sets
         b = a
         for i in range(4):

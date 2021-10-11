@@ -410,8 +410,8 @@ BitSet BitSet::load_from_file(FILE *fd) {
     uint64_t header;
     ensure(1 == fread(&header, 8, 1, fd));
 
-    uint64_t vl;
     uint64_t vn;
+    uint64_t vl;
     uint64_t sz;
     ensure(1 == fread(&vn, 8, 1, fd));
     ensure(1 == fread(&vl, 8, 1, fd));
@@ -453,7 +453,17 @@ BitSet BitSet::load_from_file(FILE *fd) {
         }
     }
     else if (header == VERSION_DENSE) {
+        if (!QUIET) {
+            fprintf(stderr,
+                "Loading BitSet(n=%lu)"
+                " with %lu words"
+                " (%lu bytes per elem.)\n",
+                vn, vl, sz
+            );
+        }
         res = BitSet(vn);
+        ensure(sizeof(res.data[0]) == 8);
+        ensure(res.data.size() == vl);
         ensure(vl == fread(res.data.data(), 8, vl, fd));
     }
     else {
