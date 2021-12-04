@@ -3,24 +3,6 @@ from setuptools import setup
 from distutils.core import Extension
 from pathlib import Path
 
-# https://stackoverflow.com/questions/29477298/setup-py-run-build-ext-before-anything-else/48942866#48942866
-from setuptools.command.build_py import build_py as _build_py
-
-
-class build_py(_build_py):
-    def run(self):
-        self.run_command("build_ext")
-        return super().run()
-
-
-try:
-    import hackycpp
-    HACKYCPP_ROOT = os.path.dirname(hackycpp.__file__)
-except ImportError:
-    print("Package 'hackycpp' must be instaled before building")
-    print("Build dependencies can not be specified yet...")
-    print("pip install hackycpp")
-    raise
 
 packages = [
     'subsets',
@@ -32,7 +14,6 @@ package_data = {
 }
 
 install_requires = [
-    'hackycpp>=0.1.0',
     'binteger>=0.8.0',
 ]
 
@@ -54,14 +35,13 @@ ext_modules = [
         swig_opts=[
             "-c++",
             "-DSWIGWORDSIZE64",  # https://github.com/swig/swig/issues/568
-            "-I" + HACKYCPP_ROOT,
         ],
         include_dirs=[
             "./subsets/",
-            HACKYCPP_ROOT,
         ],
         depends=[
             "./subsets/common.hpp",
+            "./subsets/hackycpp.hpp",
             "./subsets/BitSet.hpp",
             "./subsets/DenseSet.hpp",
             "./subsets/DenseBox.hpp",
@@ -72,8 +52,6 @@ ext_modules = [
 
 
 setup(
-    cmdclass={'build_py': build_py},  # see above
-
     name='subsets',
     version='1.0.0',
     packages=packages,
