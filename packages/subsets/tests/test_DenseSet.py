@@ -123,6 +123,17 @@ def test_save_load():
 
 def test_properties():
     for a in gen_densesets(maxn=9):
+        if a.n <= 6:
+            X = a
+            U = X.ParitySet()
+            for u in range(2**X.n):
+                test1 = int(u in U)
+                test2 = 0
+                for x in X:
+                    if x & u == u:
+                        test2 ^= 1
+                assert test1 == test2
+
         assert a.ParitySet() == a.Not().Mobius().Not()
 
         assert a.LowerSet().Not() == a.Not().UpperSet()
