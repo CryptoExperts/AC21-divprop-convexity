@@ -170,12 +170,25 @@ struct DenseBox {
         reverse(cut.begin(), cut.end());
     }
 
+    // for dense Quine-McCluskey
+    static inline void AND_up_OR(vector<u8> &cut) {
+        assert(cut.size() == 3);
+        cut[2] |= cut[0] & cut[1];
+    }
+    static inline void NOTAND_down(vector<u8> &cut) {
+        assert(cut.size() == 3);
+        cut[0] &= ~cut[2];
+        cut[1] &= ~cut[2];
+    }
+
     // for python low-level API
     void do_Sweep_OR_up(uint64_t mask = -1ull);
     void do_Sweep_OR_down(uint64_t mask = -1ull);
     void do_Sweep_MAX(uint64_t mask = -1ull);
     void do_Sweep_MIN(uint64_t mask = -1ull);
     void do_Sweep_REV(uint64_t mask = -1ull);
+    void do_Sweep_AND_up_OR(uint64_t mask = -1ull);
+    void do_Sweep_NOTAND_down(uint64_t mask = -1ull);
 
     // ========================================
     // Main methods

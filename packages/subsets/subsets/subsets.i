@@ -33,11 +33,14 @@
 #include "BitSet.hpp"
 #include "DenseSet.hpp"
 #include "DenseBox.hpp"
+#include "DenseTernary.hpp"
 %}
 
 %include "BitSet.hpp"
 %include "DenseSet.hpp"
 %include "DenseBox.hpp"
+%include "DenseTernary.hpp"
 
 %template(Vec_DenseSet) std::vector<DenseSet>;
 %template(Vec_DenseBox) std::vector<DenseBox>;
+%template(Vec_DenseTernary) std::vector<DenseTernary>;

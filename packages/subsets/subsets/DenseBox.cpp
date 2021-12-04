@@ -176,6 +176,7 @@ std::vector<u64> DenseBox::unpack(u64 x) const {
     return xs;
 }
 u64 DenseBox::pack(const std::vector<u64> & xs) const {
+    ensure(xs.size() == (size_t)n);
     u64 x = 0;
     fori(i, n) {
         x *= (dimensions[i] + 1);
@@ -438,7 +439,12 @@ void DenseBox::do_Sweep_MIN(uint64_t mask) {
 void DenseBox::do_Sweep_REV(uint64_t mask) {
     do_Sweep<REV>(mask);
 }
-
+void DenseBox::do_Sweep_AND_up_OR(uint64_t mask) {
+    do_Sweep<AND_up_OR>(mask);
+}
+void DenseBox::do_Sweep_NOTAND_down(uint64_t mask) {
+    do_Sweep<NOTAND_down>(mask);
+}
 
 void DenseBox::do_UpperSet(uint64_t mask) {
     do_Sweep<OR_up>(mask);
