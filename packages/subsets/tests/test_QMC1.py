@@ -1,7 +1,8 @@
-from random import randrange, seed
+from random import randrange, seed, sample
 from collections import Counter
+from binteger import Bin
 
-from subsets import DenseSet
+from subsets import DenseSet, DenseBox, DenseTernary
 from subsets.misc import Quine_McCluskey_Step1
 
 
@@ -52,6 +53,72 @@ def test_QMC1_random():
             # a + prec(u)
             U.Not(a)
             assert U <= P
+
+
+def test_implementations():
+    seed(123)
+    nmax = 12
+    repmax = 2
+    for n in range(1, nmax+1):
+        for _ in range(repmax * nmax // n):
+            db = DenseSet(n)
+            full = list(range(2**n))
+
+            for e in range(n+1):
+                wt = randrange(2**e+1)
+
+            xs = sample(full, wt)
+            for x in xs:
+                db.add(x)
+            if randrange(2):
+                db.do_Not()
+
+            # Semi-dense QmC through binary dense sets
+            pats = set()
+            for a, u in Quine_McCluskey_Step1(db):
+                a = Bin(a, n)
+                u = Bin(u, n)
+                pat = ""
+                for aa, uu in zip(a.str, u.str):
+                    if uu == "1":
+                        assert aa == "0"
+                        pat += "*"
+                    else:
+                        pat += aa
+                pats.add(pat)
+
+            # Dense through generic DenseBox
+            box = DenseBox([2] * n)
+            for v in db.to_Bins():
+                box.set(v.tuple)
+
+            box.do_Sweep_AND_up_OR()
+            box.do_Sweep_NOTAND_down()
+
+            pats2 = set()
+            for v in box:
+                digits = []
+                for i in range(n):
+                    digits.append("*" if v % 3 == 2 else str(v % 3))
+                    v //= 3
+                pat = "".join(digits[::-1])
+                pats2.add(pat)
+
+            # Dense through optimized DenseTernary
+            ter = DenseTernary(db)
+            ter.do_QuineMcCluskey()
+
+            pats3 = set()
+            for v in ter:
+                digits = []
+                for i in range(n):
+                    digits.append("*" if v % 3 == 2 else str(v % 3))
+                    v //= 3
+                pat = "".join(digits[::-1])
+                pats3.add(pat)
+
+            assert pats == pats2
+            assert pats == pats3
 
 
 def time_imp_diff():
