@@ -1,0 +1,5 @@
+include src/sbox/*.hpp
+include src/sbox/*.cpp
+include src/divprop/*.hpp
+include src/divprop/*.i
+include src/divprop/*.cpp

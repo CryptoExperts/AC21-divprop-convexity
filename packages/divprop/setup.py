@@ -70,7 +70,7 @@ setup(
     cmdclass={'build_py': build_py},  # see above
 
     name='divprop',
-    version='0.2.2',
+    version='0.2.3',
     packages=packages,
 
     url=None,
@@ -90,6 +90,8 @@ setup(
 
     package_dir=package_dir,
     package_data=package_data,
+    include_package_data=True,
+
     entry_points=entry_points,
     ext_modules=[
         Extension(
