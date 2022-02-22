@@ -70,7 +70,7 @@ setup(
     cmdclass={'build_py': build_py},  # see above
 
     name='divprop',
-    version='0.2.1',
+    version='0.2.2',
     packages=packages,
 
     url=None,
@@ -114,6 +114,7 @@ setup(
             swig_opts=[
                 "-c++",
                 "-DSWIGWORDSIZE64",  # https://github.com/swig/swig/issues/568
+                "-I./src/sbox/",
                 "-I" + HACKYCPP_ROOT,
                 "-I" + SUBSETS_ROOT,
             ],

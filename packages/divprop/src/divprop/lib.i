@@ -38,7 +38,7 @@
 %}
 
 %include "DivCore.hpp"
-%include "../sbox/Sbox.hpp"
+%include "Sbox.hpp"
 
 %template(Sbox8) T_Sbox<uint8_t>;
 %template(Sbox16) T_Sbox<uint16_t>;
