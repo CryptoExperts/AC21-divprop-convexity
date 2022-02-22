@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='hackycpp',
-    version='1.0.0',
+    version='1.0.1',
     packages=["hackycpp"],
 
     author='Aleksei Udovenko',
