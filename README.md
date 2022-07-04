@@ -216,16 +216,16 @@ In addition, it provides functions for encoding various constraints (sequential 
 ## Citation
 
 ```tex
-@inproceedings{AC:Udo21,
-  author    = {Aleksei Udovenko},
-  title     = {Convexity of division property transitions: theory, algorithms and compact models},
-  booktitle = {{Advances in Cryptology -- ASIACRYPT 2021}},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {?},
-  publisher = {{Springer International Publishing}},
-  year      = {2021},
-  doi       = {?},
-  isbn      = {},
-  note      = {to appear}
+@InProceedings{AC:Udovenko21,
+  author="Udovenko, Aleksei",
+  editor="Tibouchi, Mehdi and Wang, Huaxiong",
+  title="Convexity of Division Property Transitions: Theory, Algorithms and Compact Models",
+  booktitle="Advances in Cryptology -- ASIACRYPT 2021",
+  year="2021",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="332--361",
+  isbn="978-3-030-92062-3"
 }
+
 ```
